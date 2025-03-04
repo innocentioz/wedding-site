@@ -110,7 +110,7 @@ export default function Home() {
               Детали торжества
             </div>
             <div className="flex flex-col 2xl:flex-row items-center gap-6 sm:gap-8">
-              <div className="w-[300px] sm:w-[350px] lg:w-[450px] h-[350px] sm:h-[500px] lg:h-[650px] bg-white p-4 sm:p-6 lg:p-16 rounded-[15px] sm:rounded-[20px] lg:rounded-[40px] flex flex-col gap-3 sm:gap-4 lg:gap-6 justify-center hover:translate-y-[-10px] transition-all">
+              <div className="w-[300px] sm:w-[350px] lg:w-[450px] h-[350px] sm:h-[500px] lg:h-[650px] bg-white p-4 sm:p-6 lg:p-16 rounded-[15px] sm:rounded-[20px] lg:rounded-[40px] flex flex-col items-center gap-3 sm:gap-4 lg:gap-6 justify-center hover:translate-y-[-10px] transition-all">
                   <div className="text-2xl sm:text-3xl lg:text-4xl text-center">
                     Церемония
                   </div>
@@ -135,7 +135,7 @@ export default function Home() {
                   <div className="flex text-start items-center gap-2 text-base sm:text-lg text-neutral-700">
                     <Asterisk />
                     <div>
-                      Приходите заранее за минут 15
+                      Приходите заранее, за минут 15
                     </div>
                   </div>
               </div>
@@ -172,7 +172,7 @@ export default function Home() {
                     <ColorCircles />
                   </div>
                   <div className="text-xl sm:text-2xl lg:text-3xl text-justify">  
-                    Мужчин будем рады видеть в костюмах, которые подходят именно вам.
+                    Мужчин будем рады видеть в костюмах, которые подходят именно им.
                   </div>
               </div>
             </div>
@@ -200,7 +200,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>   
-                <div className="text-justify text-xl sm:text-3xl lg:text-4xl w-full lg:w-1/2 text-white px-3 sm:px-4">
+                <div className="text-justify text-xl sm:text-3xl lg:text-4xl w-full lg:w-1/2 text-white px-3 sm:px-4 max-sm:text-center">
                   Для ознакомления с местоположением нажмите на изображение
                 </div>
               </div>
@@ -224,7 +224,7 @@ export default function Home() {
                         </a>
                       </div>
                     </div>
-                    <div className="text-justify text-xl sm:text-3xl lg:text-4xl w-full lg:w-1/2 text-white px-3 sm:px-4">
+                    <div className="text-justify text-xl sm:text-3xl lg:text-4xl w-full lg:w-1/2 text-white px-3 sm:px-4 max-sm:text-center">
                         Для вступления также можно нажать на QR-code.
                     </div>
                   </div>
