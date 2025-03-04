@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Century";
+  src: url("/fonts/Century.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Grotesk";
+  src: url("/fonts/Grotesk.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Times";
+  src: url("/fonts/Times.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/Futura.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BellaScript";
+  src: url("/fonts/BellaScript.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ClassRoom";
+  src: url("/fonts/ClassRoom.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Lovelies";
+  src: url("/fonts/Lovelies.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/montserrat.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MotivaSans";
+  src: url("/fonts/MotivaSans.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url("/fonts/Cormorant.ttf") format("truetype");
+}
+
+:root {
+  --sage-green: #696E58;
+  --light-sage: #9A9B89;
+  --dusty-rose: #B9847E;
+  --light-pink: #FEDADA;
+  --blush-pink: #FFE4E6;
+}
+
+.first-content {
+  background-image: url("/images/couple.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cormorant {
+  font-family: "Cormorant";
+}
+
+.montserrat {
+  font-family: "Montserrat";
+}
+
+.motivasans {
+  font-family: "MotivaSans";
+}
+
+.classroom {
+  font-family: "ClassRoom";
+}
+
+.lovelies {
+  font-family: "Lovelies";
+}
+
+.times {
+  font-family: "Times";
+}
+
+.grotesk {
+  font-family: "Grotesk";
+}
+
+.century {
+  font-family: "Century";
+}
+
+.futura {
+  font-family: "Futura";
+}
+
+.bellascript {
+  font-family: "bellascript";
+}
+
+.wedding-gradient {
+  background: linear-gradient(to bottom, var(--light-pink) 0%, var(--blush-pink) 100%);
+}
+
+.text-sage {
+  color: var(--sage-green);
+}
+
+.text-dusty-rose {
+  color: var(--dusty-rose);
+}
+
+.border-sage {
+  border-color: var(--sage-green);
+}
+
+.bg-sage {
+  background-color: var(--sage-green);
+}
+
+.bg-light-pink {
+  background-color: var(--light-pink);
+}
