@@ -240,7 +240,7 @@ export default function Home() {
   
           <div className="flex items-center justify-center text-center px-3 sm:px-4 mt-6 sm:mt-8 lg:mt-12">
             <div className="flex items-center justify-center gap-4 sm:gap-6 lg:gap-12 w-full">
-              <p className="text-2xl sm:text-4xl lg:text-7xl text-sage">12:00</p>
+              <p className="text-2xl sm:text-4xl lg:text-7xl text-sage">11:00</p>
   
               <div>
                 <Image 
@@ -265,7 +265,7 @@ export default function Home() {
   
           <div className="flex items-center justify-center text-center px-3 sm:px-4 mt-3 sm:mt-4">
             <div className="flex items-center justify-center gap-4 sm:gap-6 lg:gap-12">
-              <p className="text-2xl sm:text-4xl lg:text-6xl text-sage">13:30</p>
+              <p className="text-2xl sm:text-4xl lg:text-6xl text-sage">12:30</p>
   
               <div>
                 <Image 
