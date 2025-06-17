@@ -254,7 +254,7 @@ export default function Home() {
   
               <div className="flex flex-col text-justify w-36 sm:w-48 lg:w-64">
                 <h2 className="text-xl sm:text-2xl lg:text-4xl font-bold text-sage">Выкуп</h2>
-                <p className="text-base sm:text-xl lg:text-3xl text-neutral-800">Выкуп невесты</p>
+                <p className="text-base sm:text-xl lg:text-3xl text-neutral-800">Выкуп невесты, будет по адресу тракторостроителей 58-106</p>
               </div>
             </div>
           </div>
